@@ -2,10 +2,9 @@ import atletas.*
 import disciplinas.*
 import comiteolimpico.*
 
-
 object raqueta {
   var precio = 100
-  method precioTotal() = precio * victoria.edad() > 3000 
+  method precioTotal() = precio * victoria.edad() // 3000 
 }
 
 object trajeJudo {

@@ -5,9 +5,10 @@ import elementos.*
 
 
 object victoria {
-  var edad = 35 
+  var edad = 25 
   var altura = 150 // altura en cms
   var disciplina = tenis
+  var elemento = raqueta
   var cantEntrenadores = 2
   
   method edad() = edad
@@ -15,7 +16,7 @@ object victoria {
   method altura() = altura
 
   method presupuestoPropio() = cantEntrenadores * comiteOlimpico.valorEntrenador()
-   + raqueta.precioTotal()
+   + elemento.precioTotal() + disciplina.precioTotal()
   }
 
 
