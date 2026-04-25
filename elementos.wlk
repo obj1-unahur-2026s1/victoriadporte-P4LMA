@@ -1,6 +1,5 @@
 import atletas.*
 import disciplinas.*
-import comiteolimpico.*
 
 const atleta = victoria
 object raqueta {

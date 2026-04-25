@@ -1,9 +1,53 @@
-import example.pepita
+import atletas.*
+import disciplinas.*
+import elementos.*
+import comiteolimpico.*
 
-describe "group of tests for pepita" {
+/* describe "group of tests for pepita" {
 
   test "pepita has initial energy" {
-    assert.equals(100, pepita.energy())
+    assert.equals(100, pepita.energy()) // equals, that, notThat
   }
 
+}
+*/
+
+// Pareto
+test "Victoria se quiere parecer a Pareto (que mide 150 cms)" {
+  assert.equals(150, victoria.altura()  
+  )
+  
+}
+
+test "Practica judo" {
+  assert.equals(judo, victoria.disciplina())
+  
+}
+test "Necesita un traje de judo" {
+  assert.equals(trajeJudo, victoria.elemento)
+}
+test "Tiene 4 entrenadores" {
+  assert.equals(4, victoria.cantEntrenadores())
+  
+}
+
+// Delpo 
+
+test "Victoria se quiere parecer a Delpo (que mide 210 cms)" {
+  assert.equals(210, victoria.altura()  
+  )
+  
+}
+
+test "Practica tenis" {
+  assert.equals(tenis, victoria.disciplina())
+  
+}
+test "Necesita una raqueta" {
+  assert.equals(raqueta, victoria.elemento())
+  
+}
+test "Tiene 2 entrenadores" {
+  assert.equals(2, victoria.cantEntrenadores())
+  
 }

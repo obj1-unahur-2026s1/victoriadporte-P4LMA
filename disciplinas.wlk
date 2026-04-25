@@ -1,6 +1,4 @@
-import comiteolimpico.*
-import atletas.*
-import elementos.*
+
 
 object tenis {
   var hinchas = 5
